@@ -7,22 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C0E67BB2119AFA900D2AB24 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0E67BA2119AFA900D2AB24 /* AboutViewController.swift */; };
+		4C8F6A19211B715B00828AF0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C8F6A18211B715B00828AF0 /* Default-568h@2x.png */; };
+		4CA5C2902119DDD400796032 /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = 4CA5C28F2119DDD400796032 /* BullsEye.html */; };
 		4CD1FC8E21185FFC00370392 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD1FC8D21185FFC00370392 /* AppDelegate.swift */; };
 		4CD1FC9021185FFC00370392 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD1FC8F21185FFC00370392 /* ViewController.swift */; };
 		4CD1FC9321185FFC00370392 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CD1FC9121185FFC00370392 /* Main.storyboard */; };
 		4CD1FC9621185FFC00370392 /* BullsEye.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4CD1FC9421185FFC00370392 /* BullsEye.xcdatamodeld */; };
 		4CD1FC9821185FFC00370392 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CD1FC9721185FFC00370392 /* Assets.xcassets */; };
-		4CD1FC9B21185FFC00370392 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CD1FC9921185FFC00370392 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4C0E67BA2119AFA900D2AB24 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		4C8F6A18211B715B00828AF0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../../../Downloads/Raywenderlich The iOS Apprentice 5th Edition/The iOS Apprentice 1 - Getting Started/Resources/Launch Images/Default-568h@2x.png"; sourceTree = "<group>"; };
+		4CA5C28F2119DDD400796032 /* BullsEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = BullsEye.html; path = "../../../Downloads/Raywenderlich The iOS Apprentice 5th Edition/The iOS Apprentice 1 - Getting Started/Resources/BullsEye.html"; sourceTree = "<group>"; };
 		4CD1FC8A21185FFC00370392 /* BullsEye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BullsEye.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CD1FC8D21185FFC00370392 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4CD1FC8F21185FFC00370392 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4CD1FC9221185FFC00370392 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4CD1FC9521185FFC00370392 /* BullsEye.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BullsEye.xcdatamodel; sourceTree = "<group>"; };
 		4CD1FC9721185FFC00370392 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4CD1FC9A21185FFC00370392 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4CD1FC9C21185FFC00370392 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -56,13 +60,15 @@
 		4CD1FC8C21185FFC00370392 /* BullsEye */ = {
 			isa = PBXGroup;
 			children = (
+				4C8F6A18211B715B00828AF0 /* Default-568h@2x.png */,
+				4CA5C28F2119DDD400796032 /* BullsEye.html */,
 				4CD1FC8D21185FFC00370392 /* AppDelegate.swift */,
 				4CD1FC8F21185FFC00370392 /* ViewController.swift */,
 				4CD1FC9121185FFC00370392 /* Main.storyboard */,
 				4CD1FC9721185FFC00370392 /* Assets.xcassets */,
-				4CD1FC9921185FFC00370392 /* LaunchScreen.storyboard */,
 				4CD1FC9C21185FFC00370392 /* Info.plist */,
 				4CD1FC9421185FFC00370392 /* BullsEye.xcdatamodeld */,
+				4C0E67BA2119AFA900D2AB24 /* AboutViewController.swift */,
 			);
 			path = BullsEye;
 			sourceTree = "<group>";
@@ -126,7 +132,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4CD1FC9B21185FFC00370392 /* LaunchScreen.storyboard in Resources */,
+				4CA5C2902119DDD400796032 /* BullsEye.html in Resources */,
+				4C8F6A19211B715B00828AF0 /* Default-568h@2x.png in Resources */,
 				4CD1FC9821185FFC00370392 /* Assets.xcassets in Resources */,
 				4CD1FC9321185FFC00370392 /* Main.storyboard in Resources */,
 			);
@@ -141,6 +148,7 @@
 			files = (
 				4CD1FC9621185FFC00370392 /* BullsEye.xcdatamodeld in Sources */,
 				4CD1FC9021185FFC00370392 /* ViewController.swift in Sources */,
+				4C0E67BB2119AFA900D2AB24 /* AboutViewController.swift in Sources */,
 				4CD1FC8E21185FFC00370392 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -154,14 +162,6 @@
 				4CD1FC9221185FFC00370392 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		4CD1FC9921185FFC00370392 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4CD1FC9A21185FFC00370392 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
